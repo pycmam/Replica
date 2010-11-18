@@ -50,13 +50,14 @@ class Replica_Macro_CacheManager
         }
 
         // Make UID for macro result
-        $fileName = md5(
+        $fileName = sha1(md5(
               $imageProxy->getUid()
             . (int) $imageProxy->getQuality()
             . $macroName
             . get_class($macro)
             . serialize($macro->getParameters())
-        );
+        ));
+
         $fileName .= $this->_getExtension($imageProxy->getMimeType());
 
         // Define image save path
