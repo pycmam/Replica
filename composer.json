@@ -1,5 +1,5 @@
 {
-    "name": "pycmam/replica",
+    "name": "pycmam/Replica",
     "type": "library",
     "description": "Image generation library",
     "keywords": ["library", "image"],
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.3.9",
-	"lib-gd": "*"
+	"lib-gd": ">=5.3.9"
     },
     "autoload": {
         "classmap": ["lib"]
