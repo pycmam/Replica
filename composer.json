@@ -1,0 +1,29 @@
+{
+    "name": "pycmam/replica",
+    "type": "library",
+    "description": "Image generation library",
+    "keywords": ["library", "image"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Oleinik",
+            "email": "maxim.oleinik@gmail.com"
+        },
+        {
+            "name": "Rustam Miniakhmetov",
+            "homepage": "pycmam@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+	"lib-gd": "*"
+    },
+    "autoload": {
+        #"psr-4": {
+        #    "Replica": "lib",
+        #},
+        "classmap": ["lib"]
+    },
+    "minimum-stability": "dev"
+}
