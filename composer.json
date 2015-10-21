@@ -20,9 +20,6 @@
 	"lib-gd": "*"
     },
     "autoload": {
-        #"psr-4": {
-        #    "Replica": "lib",
-        #},
         "classmap": ["lib"]
     },
     "minimum-stability": "dev"
