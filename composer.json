@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.3.9",
-	"ext-gd": ">=5.3.9"
+	"ext-gd": "*"
     },
     "autoload": {
         "classmap": ["lib"]
